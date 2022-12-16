@@ -141,10 +141,10 @@ metadata:
     kubernetes.io/ingress.class: "nginx"
 spec:
   rules:
-  - host: flask.pt-rancher04.cellebrite.local
+  - host: pt-rancher04.cellebrite.local
     http:
       paths:
-      - path: /
+      - path: /simpleflask
         pathType: Prefix
         backend:
           service:
